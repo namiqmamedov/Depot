@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5rem;
+    align-items: center;   
+}
+.depot{
+    width: 8%;
+}
+.depot img{
+    width: 100%;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cart .cart1{
+    margin-left: 5rem;
+}
+header .word{
+    word-spacing: 2rem;
+}
+header a{
+    color:#080808;
+    font-size: 12px;  
+    
+}
+
+.cart a{
+    margin-right: 5px;
+    padding-right: 25px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 1em;
+    color: #080808;
+    font-weight: 700;
+}
+.image{
+    background-color: #F3F3F3;
+    background-position: right;
+    background-size: cover;
+    padding: 3rem 0;
+    width: 90%;
+    margin: 0 5px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.image .chair{
+    width: 100%;
+    padding-right: 15%;
+}
+.image .text{
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.image .text h2{
+    font-size: 30px;
+    color: #080808;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.image .text p{
+    width: 55%;
+    font-size: 16px;
+    margin-top: 1%;
+    color: #999999;
+}
+.Center{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 2rem;
+    align-items: center;
+          
+}
+.Center .text{   
+    padding: 2.7rem;   
+    font-size: 12px;
+    word-spacing: 1.25rem;
+    
+}
+.Center .text a{
+    color: #929292;
+   
+}
+.Center .filter{
+    margin-right: 40px;
+    font-size: 12px;
+    color: #080808;
+}
+.depot-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.depot-box .box{
+    width: 20%;
+    padding: 1rem 1rem;   
+    margin-left: 3.4rem;
+    margin-right: 1.2rem;
+}
+.depot-box img{
+    width: 100%;
+   
+}
+.depot-box .text{
+    text-align: center;
+    
+}
+.depot-box a{
+    color: #080808;
+    font-size: 14px;
+    font-weight: bold;
+}
+.depot-box span{
+    color: #999999;
+}
+
+.footer{
+    padding: 6rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.7rem;
+}
+.footer text{
+    padding-right: 1.2rem;
+    
+}
+
+.footer a{
+    margin-bot: 40px;
+    font-size: 16px;
+    color: #999999;;
+    padding-right: 9rem;
+    
+}
+.footer p{
+
+    font-size: 14px;
+}
+.last{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.last span{
+    font-size: 12px;
+    color: #929292;
+}
+.last p{
+   color: #929292; 
+   font-size: 12px; 
+   padding-left: 8rem;
+}
+.last .icon p{
+    
+}
+.last .icon{
+    padding-right: 8rem;
+}
+i{
+    margin-left: 20px;
+}
